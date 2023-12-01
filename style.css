@@ -4,35 +4,40 @@ body {
   margin: 0;
 }
 
-header {
+h1 {
   text-align: center;
 }
 
-figure {
+img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+nav {
   text-align: center;
-  font-size: smaller;
 }
 
 nav a {
   padding-left: 10px;
   padding-right: 10px;
   background-color: grey;
+}
+
+figcaption {
   text-align: center;
+  font-size: 12px;
 }
 
 #featured-property p {
   width: 800px;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 8px auto;
 }
 
-#details div{
+#details div {
   float: left;
-  background: lightgray;
-  width: 25%;
   text-align: center;
+  background-color: red;
+  width: 25%
 }
